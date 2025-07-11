@@ -1,0 +1,10 @@
+{
+  "name": "@self-healing-testing/self-healing-testing-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@self-healing-testing/self-healing-testing"
+    ]
+  }
+}
