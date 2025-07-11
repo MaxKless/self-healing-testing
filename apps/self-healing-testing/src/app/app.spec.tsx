@@ -10,7 +10,7 @@ describe('App', () => {
         <App />
       </BrowserRouter>
     );
-    expect(baseElement).toBeTruthy();
+    expect(baseElement).toBeFalsy();
   });
 
   it('should have a greeting as the title', () => {
