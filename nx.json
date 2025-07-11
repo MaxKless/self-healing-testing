@@ -67,6 +67,6 @@
       "library": { "style": "css", "linter": "eslint" }
     }
   },
-  "bust": "3",
+  "bust": "4",
   "nxCloudUrl": "https://staging.nx.app"
 }
