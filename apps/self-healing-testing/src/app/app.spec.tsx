@@ -10,6 +10,7 @@ describe('App', () => {
         <App />
       </BrowserRouter>
     );
+    console.log('hello')
     expect(baseElement).toBeFalsy();
   });
 
