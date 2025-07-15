@@ -67,6 +67,6 @@
       "library": { "style": "css", "linter": "eslint" }
     }
   },
-  "bust": "5git add",
+  "bust": "5g",
   "nxCloudUrl": "https://staging.nx.app"
 }
