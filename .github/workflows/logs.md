@@ -185,3 +185,55 @@ forgot to copy, but no ai fix
 }
 
 ## Case 6: Agents, regular nx task
+
+{
+"ciPipelineExecutionId": "68777b753b2f470df7f45d97",
+"branch": "test",
+"status": "IN_PROGRESS",
+"createdAt": 1752660853674,
+"completedAt": null,
+"commitTitle": "agents, regular task",
+"commitUrl": "https://github.com/MaxKless/self-healing-testing/pull/1",
+"baseSha": "8efc99622ebc98c27bef126a5b09fa335505ee8e",
+"headSha": "15c59287ba230341dee81368fdfdbde04eb4278c",
+"author": "MaxKless",
+"authorAvatarUrl": "https://avatars.githubusercontent.com/u/34165455?v=4",
+"cipeUrl": "https://staging.nx.app/cipes/68777b753b2f470df7f45d97",
+"runGroups": [
+{
+"runGroup": "16316727312-1",
+"createdAt": 1752660853674,
+"completedAt": null,
+"status": "IN_PROGRESS",
+"ciExecutionEnv": "",
+"runs": [
+{
+"linkId": "7dHSgd4fFN",
+"executionId": null,
+"command": "nx-cloud record -- node -e console.log(\"hello\")",
+"status": "SUCCEEDED",
+"runUrl": "https://staging.nx.app/runs/7dHSgd4fFN",
+"numTasks": 1,
+"numFailedTasks": 0,
+"failedTasks": [],
+"createdAt": 1752660988614
+},
+{
+"linkId": null,
+"executionId": "W7CipmjTGo",
+"command": "nx affected -t lint test build e2e",
+"status": "IN_PROGRESS",
+"runUrl": "https://staging.nx.app/runs/W7CipmjTGo",
+"numTasks": 6,
+"numFailedTasks": 2,
+"failedTasks": [
+"@self-healing-testing/self-healing-testing:test",
+"@self-healing-testing/self-healing-testing:build"
+],
+"createdAt": 1752661037342
+}
+],
+"aiFix": null
+}
+]
+}
