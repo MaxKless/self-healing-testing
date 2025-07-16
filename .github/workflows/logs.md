@@ -109,3 +109,49 @@
 }
 ]
 }
+
+## Case 3: Agents & fix-ci, regular nx command
+
+forgot to copy, but no ai fix
+
+## Case 4: Agents & fix-ci, nx-cloud record
+
+{
+"ciPipelineExecutionId": "687779593b2f470df7f45b3d",
+"branch": "test",
+"status": "FAILED",
+"createdAt": 1752660313579,
+"completedAt": 1752660466295,
+"commitTitle": "throw error in nx-cloud-record w/ agents",
+"commitUrl": "https://github.com/MaxKless/self-healing-testing/pull/1",
+"baseSha": "8efc99622ebc98c27bef126a5b09fa335505ee8e",
+"headSha": "cc73982f0fd9b24ca09274b172ec0a2977ca0118",
+"author": "MaxKless",
+"authorAvatarUrl": "https://avatars.githubusercontent.com/u/34165455?v=4",
+"cipeUrl": "https://staging.nx.app/cipes/687779593b2f470df7f45b3d",
+"runGroups": [
+{
+"runGroup": "16316529596-1",
+"createdAt": 1752660313579,
+"completedAt": 1752660466295,
+"status": "FAILED",
+"ciExecutionEnv": "",
+"runs": [
+{
+"linkId": "JpfiQNL0VU",
+"executionId": null,
+"command": "nx-cloud record -- node -e throw \"error\"",
+"status": "FAILED",
+"runUrl": "https://staging.nx.app/runs/JpfiQNL0VU",
+"numTasks": 1,
+"numFailedTasks": 1,
+"failedTasks": [
+"nx-cloud-tasks-runner:record-command"
+],
+"createdAt": 1752660466228
+}
+],
+"aiFix": null
+}
+]
+}
