@@ -155,3 +155,33 @@ forgot to copy, but no ai fix
 }
 ]
 }
+
+## Case 5: Agents, nx-cloud record
+
+{
+"ciPipelineExecutionId": "68777a9098311b5105a7d185",
+"branch": "test",
+"status": "IN_PROGRESS",
+"createdAt": 1752660624680,
+"completedAt": null,
+"commitTitle": "no fix-ci afterwards",
+"commitUrl": "https://github.com/MaxKless/self-healing-testing/pull/1",
+"baseSha": "8efc99622ebc98c27bef126a5b09fa335505ee8e",
+"headSha": "d1ed67a48a26e5941c3f587bce4661997bf25dab",
+"author": "MaxKless",
+"authorAvatarUrl": "https://avatars.githubusercontent.com/u/34165455?v=4",
+"cipeUrl": "https://staging.nx.app/cipes/68777a9098311b5105a7d185",
+"runGroups": [
+{
+"runGroup": "16316645169-1",
+"createdAt": 1752660624680,
+"completedAt": null,
+"status": "IN_PROGRESS",
+"ciExecutionEnv": "",
+"runs": [],
+"aiFix": null
+}
+]
+}
+
+## Case 6: Agents, regular nx task

@@ -2,5 +2,11 @@
   "name": "@self-healing-testing/self-healing-testing",
   "version": "0.0.1",
   "private": true,
-  "nx": {}
+  "nx": {
+    "targets": {
+      "build": {
+        "command": "throw hello"
+      }
+    }
+  }
 }
