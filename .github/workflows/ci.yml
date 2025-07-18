@@ -35,7 +35,7 @@ jobs:
       - run: npx playwright install --with-deps
       - uses: nrwl/nx-set-shas@v4
 
-      - run: npx nx-cloud record -- node -e 'console.log("ahesllooaooaoooaa")'
+      - run: npx nx-cloud record -- node -e 'console.log("ahesllooasooaoooaa")'
 
       # Prepend any command with "nx-cloud record --" to record its logs to Nx Cloud
       # - run: npx nx-cloud record -- echo Hello World
