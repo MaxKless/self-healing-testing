@@ -11,10 +11,10 @@
       }
     },
     "targets": {
-      "build": {
-        "command": "throw hello"
-      },
-      "aaaa": {
+        "command": "vite build"
+     },
+     "aaaa": {
+        "command": "vite build"
         "command": "throw hello"
       }
     }
