@@ -8,7 +8,7 @@
         "command": "vite build"
       },
       "aaaa": {
-        "command": "vite build"
+        "command": "throw hello"
       }
     }
   }
