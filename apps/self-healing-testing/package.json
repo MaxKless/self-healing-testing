@@ -4,17 +4,12 @@
   "private": true,
   "nx": {
     "projectType": "application",
-    "release": {
-      "changelog": {
-        "title": "{{version}}",
-        "body": "{{changelog}}"
-      }
-    },
+    "release": {},
     "targets": {
-        "command": "vite build"
-     },
-     "aaaa": {
-        "command": "vite build"
+      "build": {
+        "command": "throw hello"
+      },
+      "aaaa": {
         "command": "throw hello"
       }
     }
