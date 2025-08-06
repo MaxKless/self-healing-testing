@@ -4,6 +4,7 @@
   "private": true,
   "nx": {
     "targets": {
+      "build": {
         "command": "throw hello"
       },
       "aaaa": {
@@ -11,4 +12,4 @@
       }
     }
   }
-
+}
