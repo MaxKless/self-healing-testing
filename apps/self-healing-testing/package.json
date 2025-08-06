@@ -5,10 +5,10 @@
   "nx": {
     "targets": {
       "build": {
-        "command": "throw hello"
+        "command": "vite build"
       },
       "aaaa": {
-        "command": "throw hello"
+        "command": "vite build"
       }
     }
   }
