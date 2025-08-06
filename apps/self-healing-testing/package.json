@@ -4,7 +4,6 @@
   "private": true,
   "nx": {
     "targets": {
-        "command": "vite build"
         "command": "throw hello"
       },
       "aaaa": {
@@ -12,4 +11,4 @@
       }
     }
   }
-}
+
