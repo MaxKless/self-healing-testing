@@ -5,7 +5,7 @@
   "nx": {
     "targets": {
       "build": {
-        "command": "vite build"
+        "command": "throw hello"
       },
       "aaaa": {
         "command": "throw hello"
