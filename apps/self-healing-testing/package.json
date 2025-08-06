@@ -3,8 +3,15 @@
   "version": "0.0.1",
   "private": true,
   "nx": {
+    "projectType": "application",
+    "release": {
+      "changelog": {
+        "title": "{{version}}",
+        "body": "{{changelog}}"
+      }
+    },
     "targets": {
-        "command": "vite build"
+      "build": {
         "command": "throw hello"
       },
       "aaaa": {
