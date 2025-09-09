@@ -7,11 +7,11 @@
     "release": {},
     "targets": {
       "build": {
-        "command": "vite build",
+        "command": "throw hello",
         "cache": true
       },
       "aaaa": {
-        "command": "vite build"
+        "command": "throw hello"
       }
     }
   }
