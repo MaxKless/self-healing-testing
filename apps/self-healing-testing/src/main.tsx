@@ -3,7 +3,10 @@ import { BrowserRouter } from 'react-router-dom';
 import * as ReactDOM from 'react-dom/client';
 import App from './app/app';
 
-if (true && false && true) {
+const x = 5;
+
+if (true) {
+  console.log('Hello, world!');
 }
 
 const root = ReactDOM.createRoot(
