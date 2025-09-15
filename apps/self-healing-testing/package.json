@@ -2,17 +2,5 @@
   "name": "@self-healing-testing/self-healing-testing",
   "version": "0.0.1",
   "private": true,
-  "nx": {
-    "projectType": "applicationsd",
-    "release": {},
-    "targets": {
-      "build": {
-        "command": "throw hello",
-        "cache": true
-      },
-      "aaaa": {
-        "command": "throw hello"
-      }
-    }
-  }
+  "nx": {}
 }
