@@ -3,10 +3,8 @@ import { BrowserRouter } from 'react-router-dom';
 import * as ReactDOM from 'react-dom/client';
 import App from './app/app';
 
-const z = 123;
-
 if (true) {
-  console.log('This is always shown');
+  console.log('This is always shown, no matter what');
 }
 
 const root = ReactDOM.createRoot(
