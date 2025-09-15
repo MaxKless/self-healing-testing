@@ -2,6 +2,7 @@
   "name": "@self-healing-testing/source",
   "version": "0.0.0",
   "license": "MIT",
+  "description": "its just there yk",
   "scripts": {},
   "private": true,
   "dependencies": {
