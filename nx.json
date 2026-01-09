@@ -12,12 +12,13 @@
     ],
     "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
-  "nxCloudId": "6870c606d08961ef93f52812",
   "plugins": [
     {
       "plugin": "@nx/js/typescript",
       "options": {
-        "typecheck": { "targetName": "typecheck" },
+        "typecheck": {
+          "targetName": "typecheck"
+        },
         "build": {
           "targetName": "build",
           "configName": "tsconfig.lib.json",
@@ -37,7 +38,12 @@
         "typecheckTargetName": "typecheck"
       }
     },
-    { "plugin": "@nx/eslint/plugin", "options": { "targetName": "lint" } },
+    {
+      "plugin": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
     {
       "plugin": "@nx/vite/plugin",
       "options": {
@@ -52,20 +58,36 @@
         "watchDepsTargetName": "watch-deps"
       }
     },
-    { "plugin": "@nx/playwright/plugin", "options": { "targetName": "e2e" } }
+    {
+      "plugin": "@nx/playwright/plugin",
+      "options": {
+        "targetName": "e2e"
+      }
+    }
   ],
-  "targetDefaults": { "test": { "dependsOn": ["^build"] } },
+  "targetDefaults": {
+    "test": {
+      "dependsOn": ["^build"]
+    }
+  },
   "generators": {
     "@nx/react": {
       "application": {
-        "babel": true,
+        "babel": false,
         "style": "css",
         "linter": "eslint",
         "bundler": "vite"
       },
-      "component": { "style": "css" },
-      "library": { "style": "css", "linter": "eslint" }
+      "component": {
+        "style": "css"
+      },
+      "library": {
+        "style": "css",
+        "linter": "eslint"
+      }
     }
   },
-  "nxCloudUrl": "https://staging.nx.app"
+  "bust": "5gagaaab123456",
+  "nxCloudUrl": "https://snapshot.nx.app",
+  "nxCloudId": "6877b56241886a2e8cb865f2"
 }
